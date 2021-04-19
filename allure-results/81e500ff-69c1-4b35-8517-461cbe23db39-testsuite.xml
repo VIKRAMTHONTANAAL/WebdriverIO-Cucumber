@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618669623407' stop='1618669623423'>
+    <name>Performing a login: Login with default user</name>
+    <title>Performing a login: Login with default user</title>
+    <test-cases>
+        <test-case start='1618669623409' status='passed' stop='1618669623414'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1618669623415' status='broken' stop='1618669623417'>
+            <name>When I login with a default user</name>
+            <title>When I login with a default user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login with a default user" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I login with a default user" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Automation\webdriver-io-practice\features\Login.feature):1:1
+                	at Scenario(Login with default user):5:1
+                	at Step(I login with a default user):6:1
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1618669623417' status='broken' stop='1618669623418'>
+            <name>Then I shall be on the Store page</name>
+            <title>Then I shall be on the Store page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I shall be on the Store page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I shall be on the Store page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Automation\webdriver-io-practice\features\Login.feature):1:1
+                	at Scenario(Login with default user):5:1
+                	at Step(I shall be on the Store page):7:1
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1618669623418' status='passed' stop='1618669623420'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
